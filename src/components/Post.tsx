@@ -4,16 +4,8 @@ import { FiShare } from "react-icons/fi";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import profile from '../assets/images/image_1.webp'
 
-interface PostProps {
-    image: string,
-    user_pic: string,
-    name: string,
-    title: string,
-    likes: number
-}
 
-
-const Post: React.FC<PostProps> = ({ image, user_pic, name, title, likes }) => {
+const Post: React.FC = () => {
     return (
         <div className="flex flex-col gap-3 font-poppins">
             {/* Banner Image */}
